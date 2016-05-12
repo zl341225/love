@@ -26,7 +26,7 @@
 			<div id="words">
 				<div id="messages">
 					亲爱的老婆，这是我们相爱在一起的时光。
-					<div id="elapseClock"><span class="digit">1112</span> 天 <span class="digit">20</span> 小时 <span class="digit">00</span> 分 <span class="digit">26</span> 秒</div>
+					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
 					爱你直到永永远远。<br>
@@ -57,7 +57,7 @@ if (!document.createElement('canvas').getContext) {
 } else {
 	setTimeout(function () {
 		startHeartAnimation();
-	}, 5000);
+	}, 50);
 
 	timeElapse(together);
 	setInterval(function () {
